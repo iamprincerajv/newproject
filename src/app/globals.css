@@ -34,6 +34,31 @@
     background-color: #f1f1f1;
 }
 
+/* Sign in and join in */
+.auth-form {
+    max-width: 400px;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form .btn-google, .auth-form .btn-facebook {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.auth-form input {
+    margin-bottom: 20px;
+}
+
+input#remember-me {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 18px;
+}
+
 /* Home */
 #people:hover {
     background-color: #8064A2;
@@ -57,24 +82,6 @@
 #program:hover {
     background-color: #0096C8;
     color: white;
-}
-
-/* Sign in and join in */
-.auth-form {
-    max-width: 400px;
-    padding: 30px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.auth-form .btn-google, .auth-form .btn-facebook {
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.auth-form input {
-    margin-bottom: 20px;
 }
 
 .spanText {
